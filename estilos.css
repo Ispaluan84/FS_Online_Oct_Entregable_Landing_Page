@@ -1,0 +1,102 @@
+body {
+    width: 1325px;
+    height: 550px;
+}
+
+.fondo {
+    width: 1300px;
+    height: 450px;
+    font-family: futura, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: #049e96;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+}
+
+.idioma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: #e999a0;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid #e999a0; 
+    margin: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.png {
+    width: 20px;
+    height: 20px;
+}
+
+.img {
+    width: 1325px;
+    height: 500px;
+}
+
+p {
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+    
+}
+
+h3 {
+    display: flex;
+    position: relative;
+    bottom: 160px;
+    left: 50px;
+}
+
+.regalo {
+    padding: 15px;
+    border: none;
+    border-radius: 100px;
+    background-color: #e999a0;
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    left:70px;
+    cursor: pointer;
+    
+}
+
+
+
+.chat {
+    display: flex;
+    position: relative;
+    bottom: 200px;
+    left: 1250px;
+}
